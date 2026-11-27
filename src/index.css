@@ -1,0 +1,20 @@
+/* Base reset and global typography for TaskMate */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fbff 55%, #e0f2fe 100%);
+  color: #1e293b;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input {
+  font-family: inherit;
+}
